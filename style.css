@@ -1,0 +1,99 @@
+:root{
+	--cardone: hsl(31, 77%, 52%);
+	--cardtwo: hsl(184, 100%, 22%);
+	--cardthree: hsl(179, 100%, 13%);
+
+	--paragraph: hsla(0, 0%, 100%, 0.75);
+	--bg-h-btns: hsl(0, 0%, 95%);
+
+	--heading-font: 'Big Shoulders Display', cursive, sans-serif;
+	--paragraph-font: 'Lexend Deca', sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--bg-h-btns);
+}
+
+h1{
+	font-family: var(--heading-font);
+	color: var(--bg-h-btns);
+	letter-spacing: 3px;
+}
+
+p{
+	font-family: var(--paragraph-font);
+	color: var(--paragraph);
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.container{
+	max-width: 100vw;
+	min-height: 100vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.card1{
+	background-color: var(--cardone);
+	padding: 2.5em;
+}
+
+.card2{
+	background-color: var(--cardtwo);
+	padding: 2.5em;
+}
+
+.card3{
+	background-color: var(--cardthree);
+	padding: 2.5em;
+}
+
+button{
+	border: none;
+	background-color: var(--bg-h-btns);
+	padding: 1em 2.2em;
+	border-radius: 20px;
+	font-family: var(--paragraph-font);
+	margin-top: 5em;
+	margin-bottom: 1.1em;
+}
+
+.sedans-btn{
+	color: var(--cardone);
+}
+
+.suvs-btn{
+	color: var(--cardtwo);
+}
+
+.luxury-btn{
+	color: var(--cardthree);
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid var(--paragraph);
+	border-radius: 30px;
+	padding: 1em 2.2em;
+	color: var(--paragraph);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+img:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+	cursor: pointer;
+}
+	
