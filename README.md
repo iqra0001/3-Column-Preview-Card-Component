@@ -19,7 +19,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 #### Mobile
 
-![](./3-column-preview-mobile-screenshot.png)
+![](./3-column-preview-mobile-screenshot-snip.png)
 
 #### Desktop
 
