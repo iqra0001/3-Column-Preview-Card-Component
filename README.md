@@ -19,11 +19,11 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 #### Mobile
 
-![](./3-column-preview-mobile-screenshot-snip.png)
+![](./3-column-preview-mobile-screenshot-snip.jpg)
 
 #### Desktop
 
-![](./3-column-preview-desktop-screenshot.png)
+![](./3-column-preview-desktop-screenshot.jpg)
 
 
 ### Links
